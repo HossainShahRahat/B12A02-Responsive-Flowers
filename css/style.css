@@ -29,13 +29,55 @@ nav a{
 }
 .h1-container2{
     font-size: 50px;
+    line-height: 0.1;
 }
 .font-color{
     color: #E95A08;
 }
-.p-container1{
+.p-container1, li{
     font-size: 22px;
 }
-.Plants-Section h1{
+.Plants-Section h1,p{
     text-align: center;
+}
+.card{
+    max-width: 270px;
+    padding-bottom: 30px;
+    line-height: 4px;
+    margin: 0 auto;
+}
+.card img{
+    width: 270px;
+    height: 322.94px
+}
+.btn-primary{
+    background-color: #E95A08;
+    color: white;
+    font-size: 16px;
+    padding: 15px 80px;
+    border: none;
+    /*transition: 0.3s;*/
+    cursor: pointer;
+}
+.item{
+    padding: 50px 150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.Plants-Lover-Section{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 210.12px;
+    max-width: 1140px;
+}
+.Plants-Lover-Section img{
+    padding: 60px;
+}
+.badge{
+    position: absolute;
+    left: 750px;
+    top: 2000px;
+    z-index: 1;
 }

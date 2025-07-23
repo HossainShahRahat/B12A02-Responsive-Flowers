@@ -1,3 +1,19 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 body{
     background-color: #f5f8ff;
     margin: 0%;
@@ -106,11 +122,13 @@ nav a{
 }
 .badge{
     position: absolute;
-    left: 750px;
-    top: 2000px;
+    left: 735px;
+    top: 1950px;
     z-index: 1;
     animation: spin 4s linear infinite;
+    filter: drop-shadow(3px 10px 4px #b8babf);
 }
+
 @keyframes spin{
     from{
         transform: rotate(0deg);
@@ -128,7 +146,7 @@ nav a{
     justify-content: center;
 }
 .join-section{
-    padding: 120px 0px;
+    padding: 120px 0px 0px 0px;
 }
 .grid-1{
     display: grid;
@@ -138,11 +156,68 @@ nav a{
     width: 367px;
     padding: 10px;
     border-radius: 25px;
+    filter: brightness(0.6);
 }
+.p-position1{
+    left: 480px;
+    top: 3247.94px;
+    z-index: 1;
+}
+.a-position1{
+    left: 530px;
+    top: 3293.94px;
+    z-index: 1;
+}
+
+.p-position2{
+    left: 480px;
+    top: 3473.94px;
+    z-index: 1;
+}
+.a-position2{
+    left: 530px;
+    top: 3519.94px;
+    z-index: 1;
+}
+
+.p-position3{
+    left: 940px;
+    top: 3310px;
+    z-index: 1;
+}
+.a-position3{
+    left: 1050px;
+    top: 3410px;
+    z-index: 1;
+}
+.grid-1 a{
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    color: white;
+}
+.grid-1 p{
+    font-size: 20px;
+    position: absolute;
+    color: white;
+}
+
 .grid-2 img{
     width: 753px;
     padding: 10px;
     border-radius: 25px;
+    filter: brightness(0.6);
+}
+.grid-2 a{
+    font-size: 28px;
+    font-weight: 600;
+    position: absolute;
+    color: white;
+}
+.grid-2 p{
+    font-size: 40px;
+    position: absolute;
+    color: white;
 }
 
 .join-section img{
@@ -155,4 +230,31 @@ input[type=email] {
   margin: 8px 0;
   box-sizing: border-box;
   font-size: 16px;
+}
+
+.footer-logo p{
+    text-align: left;
+    color: #7d7e7f;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 160px;
+}
+.footer-menu{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-menu a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #7d7e7f;
+}
+.icons img{
+    padding: 0px 10px;
+    vertical-align: middle;
 }

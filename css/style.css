@@ -25,6 +25,10 @@ nav{
     align-items: center;
     margin: 30px 150px;
 }
+.Menu-items{
+    display: flex;
+    align-items: center;
+}
 
 nav a{
     text-decoration: none;
@@ -41,6 +45,9 @@ nav a{
     display: flex;
     justify-content: space-between;
     margin: 120px 150px;
+}
+.image-banner img{
+    width: 100%;
 }
 .Banner p{
     text-align: left;
@@ -86,8 +93,7 @@ nav a{
     margin: 0 auto;
 }
 .card img{
-    width: 270px;
-    height: 322.94px
+    width: 100%;
 }
 .btn-primary{
     background-color: #E95A08;

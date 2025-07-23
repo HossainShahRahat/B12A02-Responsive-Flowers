@@ -1,0 +1,41 @@
+body{
+    background-color: #F5F8FF;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.cart-image{
+    vertical-align: middle;
+    height: 22px;
+}
+.Banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 150px;
+}
+.h1-container1{
+    font-size: 60px;
+    line-height: 0.5;
+}
+.h1-container2{
+    font-size: 50px;
+}
+.font-color{
+    color: #E95A08;
+}
+.p-container1{
+    font-size: 22px;
+}
+.Plants-Section h1{
+    text-align: center;
+}

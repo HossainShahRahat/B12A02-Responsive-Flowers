@@ -97,6 +97,7 @@ nav img, a{
     margin: 0%;
     padding: 0%;
 }
+
 .Plants-Lover-Section img{
     width: 290px;
     height: 400px;
@@ -238,9 +239,11 @@ footer{
     color: #7d7e7f;
 }
 .icons{
-    padding: 0px 20px;
+    display: flex;
+    padding: 0px 30px;
 }
 .icons img{
-    padding: 5px 5px;
+    padding: 40px 14px;
+    width: 50%;
 }
 }

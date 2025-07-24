@@ -7,6 +7,9 @@
     "wdth" 100;
 }
 
+.a:hover{
+    transform: scale(1.5);
+}
 
 .inter-normal {
   font-family: "Inter", sans-serif;
@@ -56,6 +59,9 @@ nav a{
     font-size: 60px;
     line-height: 0.5;
 }
+.h1-container2-1{
+    font-size: 50px;
+}
 .h1-container2{
     font-size: 50px;
     line-height: 0.1;
@@ -101,8 +107,11 @@ nav a{
     font-size: 16px;
     padding: 15px 80px;
     border: none;
-    /*transition: 0.3s;*/
+    transition: 0.3s;
     cursor: pointer;
+}
+.btn:hover{
+    background-color: #943a05;
 }
 .button-position{
     position: absolute;
@@ -195,6 +204,11 @@ nav a{
     left: 1050px;
     top: 3410px;
     z-index: 1;
+}
+.Title-and-unordered-list ul li{
+    line-height: 1;
+    font-size: 20px;
+    padding: 5px;
 }
 .grid-1 a{
     font-size: 16px;

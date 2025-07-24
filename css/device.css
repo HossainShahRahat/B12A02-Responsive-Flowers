@@ -32,25 +32,29 @@ nav img, a{
     line-height: 0.1;
     padding: 0px 38px;
 }
+.h1-container2-1{
+    font-size: 28px;
+    padding: 0px 38px;
+}
 .h1-container2{
-    font-size: 33px;
+    font-size: 24px;
     padding: 0px 38px;
 }
 .h1-container3{
-    font-size: 33px;
+    font-size: 24px;
     line-height: 0.1;
 }
 .position1{
     position: absolute;
-    left: 600px;
-    top:4000px;
+    left: 80px;
+    top:3710px;
     z-index: 1;
 }
 
 .position2{
     position: absolute;
-    left: 500px;
-    top:4100px;
+    left: 32px;
+    top:3760px;
     z-index: 1;
 }
 .font-color{
@@ -67,22 +71,18 @@ nav img, a{
     line-height: 4px;
     margin: 0 auto;
 }
-.card img{
-    width: 100%;
-}
 .btn-primary{
     background-color: #E95A08;
     color: white;
     font-size: 16px;
     padding: 15px 15px;
     border: none;
-    /*transition: 0.3s;*/
     cursor: pointer;
 }
 .button-position{
     position: absolute;
-    left: 1143px;
-    top:4108px;
+    left: 250px;
+    top:3769px;
     z-index: 1;
 }
 .item{
@@ -102,6 +102,18 @@ nav img, a{
     height: 400px;
     align-items: center;
 }
+.Title-and-unordered-list ul li{
+    line-height: 1;
+    font-size: 16px;
+    padding: 5px;
+}
+.Title-and-unordered-list strong{
+    display: flex;
+    text-align: left;
+}
+.Title-and-unordered-list br{
+    display: none;
+}
 .badge{
     display: none;
 }
@@ -116,7 +128,7 @@ nav img, a{
     vertical-align: middle;
 }
 .join-section{
-    padding: 120px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
 .grid-1{
     display: flex;
@@ -130,35 +142,35 @@ nav img, a{
     filter: brightness(0.6);
 }
 .p-position1{
-    left: 480px;
-    top: 3247.94px;
+    left: 90px;
+    top: 3050px;
     z-index: 1;
 }
 .a-position1{
-    left: 530px;
-    top: 3293.94px;
+    left: 150px;
+    top: 3100px;
     z-index: 1;
 }
 
 .p-position2{
-    left: 480px;
-    top: 3473.94px;
+    left: 90px;
+    top: 3280px;
     z-index: 1;
 }
 .a-position2{
-    left: 530px;
-    top: 3519.94px;
+    left: 150px;
+    top: 3330px;
     z-index: 1;
 }
 
 .p-position3{
-    left: 940px;
-    top: 3310px;
+    left: 90px;
+    top: 3480px;
     z-index: 1;
 }
 .a-position3{
-    left: 1050px;
-    top: 3410px;
+    left: 150px;
+    top: 3530px;
     z-index: 1;
 }
 .grid-1 a{
@@ -175,18 +187,18 @@ nav img, a{
 
 .grid-2 img{
     width: 362px;
-    padding: 10px;
+    padding: 18px;
     border-radius: 25px;
     filter: brightness(0.6);
 }
 .grid-2 a{
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 600;
     position: absolute;
     color: white;
 }
 .grid-2 p{
-    font-size: 40px;
+    font-size: 22px;
     position: absolute;
     color: white;
 }
@@ -196,7 +208,7 @@ nav img, a{
 }
 
 input[type=email] {
-  width: 644px;
+  width: 218px;
   padding: 14px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -209,24 +221,26 @@ input[type=email] {
 }
 
 footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 160px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0px 25px;
 }
 .footer-menu{
+    padding: 5px 20px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .footer-menu a{
     text-decoration: none;
-    padding: 10px;
+    padding: 5px 25px;
     font-size: 16px;
     color: #7d7e7f;
 }
+.icons{
+    padding: 0px 20px;
+}
 .icons img{
-    padding: 0px 10px;
-    vertical-align: middle;
+    padding: 5px 5px;
 }
 }
